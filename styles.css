@@ -101,7 +101,6 @@ body {
 .icon-container {
     display: flex;
     width: 5%;
-    /* height:10%; */
 }
 
 .fas {
@@ -139,6 +138,13 @@ body {
     filter: brightness(1.5);
     cursor: pointer;
 }
+.hex-contnr{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .button-text {
     position: absolute;
@@ -147,7 +153,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 1rem;
     font-weight: bold;
-    color: white;
+    color: #d9d9d9;
     pointer-events: none;
 
 }
@@ -156,12 +162,12 @@ body {
     border-color: transparent;
     filter: brightness(1.5);
     cursor: pointer;
+    color:#fff
 }
 
 .logo-image {
-    width: 90px;
+    width: 8rem;
     filter: invert(0%) brightness(100%);
-    /* background-color: white; */
 }
 
 .main-title {
@@ -198,6 +204,11 @@ body {
     text-align: left;
     margin-bottom: 6%;
 
+}
+
+.sub-texts{
+    font-weight: 100; 
+    margin-bottom: 8%
 }
 
 .title-container {
@@ -548,4 +559,9 @@ footer {
     width: 2%;
     height: 2%;
     filter: invert(100%) brightness(100%);
+}
+
+.logo{
+    display: flex;
+    gap:4px
 }
