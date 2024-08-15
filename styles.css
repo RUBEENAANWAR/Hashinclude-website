@@ -64,7 +64,8 @@ body {
 .navbar a:hover {
     background: linear-gradient(90deg, #ff0077, #00f7ff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Gradient text color effect */
+    -webkit-text-fill-color: transparent;
+    /* Gradient text color effect */
     color: transparent;
 }
 
@@ -138,7 +139,8 @@ body {
     filter: brightness(1.5);
     cursor: pointer;
 }
-.hex-contnr{
+
+.hex-contnr {
     display: flex;
     width: 100%;
     margin-top: 10%;
@@ -162,7 +164,7 @@ body {
     border-color: transparent;
     filter: brightness(1.5);
     cursor: pointer;
-    color:#fff
+    color: #fff
 }
 
 .logo-image {
@@ -206,8 +208,8 @@ body {
 
 }
 
-.sub-texts{
-    font-weight: 100; 
+.sub-texts {
+    font-weight: 100;
     margin-bottom: 8%
 }
 
@@ -415,7 +417,7 @@ p {
 .overlay-heading {
     font-family: 'retake', sans-serif;
     font-size: 4rem;
-color:#d9d9d9;
+    color: #d9d9d9;
 }
 
 .school {
@@ -561,7 +563,90 @@ footer {
     filter: invert(100%) brightness(100%);
 }
 
-.logo{
+.logo {
     display: flex;
-    gap:4px
+    gap: 4px
+}
+
+.hex-container {
+    position: relative;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.hexagon {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.hex-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.hex-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.coin {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.coin1 {
+    top: 20%;
+    right: 25%;
+    filter: sepia(1) saturate(500%) hue-rotate(-50deg) brightness(1.1);
+    width:13%;
+    height:13%
+}
+
+.coin2 {
+    top: 13%;
+    left: 27%;
+}
+
+.coin3 {
+    bottom: 8%;
+    left: 46%;
+    filter: sepia(1) saturate(40%) hue-rotate(10deg) brightness(.75);
+}
+
+.coin4 {
+    bottom: 30%;
+    left: 16%;
+    width:13%;
+    height:13%
+}
+
+.coin5 {
+    bottom: 21%;
+    right: 18%;
+    width:13%;
+    height:13%
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    /* Adjust text color as needed */
+    font-size: 16px;
+    /* Adjust font size as needed */
+    line-height: 1.2;
 }
