@@ -20,10 +20,18 @@
         <div class="navbar-right">
           <a href="#about ">ABOUT US</a>
           <a href="#contact">CONTACT US</a>
-          <a href="#home">
-            <i class="fas fa-user"></i>
-            <i class="fas fa-globe"></i>
-          </a>
+          <div class="nav-icon-container">
+            <div class="icon-wrapper">
+              <a href="#">
+                <i class="fas fa-globe"></i>
+              </a>
+            </div>
+            <div class="icon-wrapper">
+              <a href="#">
+                <i class="fas fa-user"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="image-container">
@@ -46,7 +54,6 @@
         <span>cras sapien sed lorem amet scelerisque.</span>
       </p>
       <div class="button-container">
-        <!-- <button class="custom-button">JOIN NOW</button> -->
         <img
           src="/public/btn_plain.svg"
           alt="Button componentt"
@@ -57,18 +64,20 @@
     </div>
     <!-- bottom part -->
 
-    <div class="numerics">
-      <div class="num-contnr1">
-        <div class="num-title">120K+</div>
-        <p class="num-subtitle">Lorem ipsum dolor ipsum</p>
+    <div class="stats">
+      <div class="stat-item">
+        <h2>120k+</h2>
+        <p>Lorem ipsum dolor ipsum</p>
       </div>
-      <div class="num-contnr2">
-        <div class="num-title">10K+</div>
-        <p class="num-subtitle">Lorem ipsum dolor</p>
+      <div class="line"></div>
+      <div class="stat-item">
+        <h2>10k+</h2>
+        <p>Lorem ipsum dolor</p>
       </div>
-      <div class="num-contnr2">
-        <div class="num-title">22%</div>
-        <p class="num-subtitle">Lorem ipsum</p>
+      <div class="line"></div>
+      <div class="stat-item">
+        <h2>22%</h2>
+        <p>Lorem ipsum</p>
       </div>
     </div>
 
@@ -121,28 +130,155 @@
       </div>
     </div>
 
+    <!-- middle text -->
+    <div style="margin: 5% 0%;display: flex;width: 100%;">
+      <div class="overlay-heading">
+        Phasellus nec ligula<br />
+        non felis <span class="school">imperdiet</span><br />
+        COMMODO.
+      </div>
+      <div class="safety-container">
+        <img
+          src="/public/steps.svg"
+          alt="Button componentt"
+          class="custom-button"
+        />
+      </div>
+    </div>
     <!-- three boxes part -->
     <div class="card-container">
       <div class="card">
-          <div class="icon">👤</div>
-          <div class="title">Travel Safety</div>
-          <div class="subtitle">207.93 x 46.93</div>
-          <p>Lorem ipsum Nisl dolor sit amet conse Nisl ctetur. Nisl protin cras sapien sed Lorem.</p>
-          <button class="start-btn">START NOW</button>
+        <div class="icon">
+          <img src="/public/walking.svg" alt="Button componentt" />
+        </div>
+        <div class="title-card">Travel Safety</div>
+        <h3 style="font-weight: 100; margin-bottom: 8%">
+          Lorem ipsum Nisl dolor sit amet conse Nisl ctetur. Nisl protin cras
+          sapien sed Lorem.
+        </h3>
+        <div class="button-container">
+          <img
+            src="/public/btn_plain.svg"
+            alt="Button componentt"
+            class="custom-button1"
+          />
+          <span class="button-text">START NOW</span>
+        </div>
       </div>
       <div class="card">
-          <div class="icon">🚪</div>
-          <div class="title">Evacuation</div>
-          <p>Lorem ipsum Nisl dolor sit amet conse Nisl ctetur. Nisl protin cras sapien sed Lorem.</p>
-          <button class="start-btn">START NOW</button>
+        <div class="icon">
+          <img src="/public/evacuation.svg" alt="Button componentt" />
+        </div>
+        <div class="title-card">Evacuation</div>
+        <h3 style="font-weight: 100; margin-bottom: 8%">
+          Lorem ipsum Nisl dolor sit amet conse Nisl ctetur. Nisl protin cras
+          sapien sed Lorem.
+        </h3>
+        <div class="button-container">
+          <img
+            src="/public/btn_plain.svg"
+            alt="Button componentt"
+            class="custom-button"
+          />
+          <span class="button-text">START NOW</span>
+        </div>
       </div>
       <div class="card">
-          <div class="icon">🛴</div>
-          <div class="title">eScooter & Bikes</div>
-          <p>Lorem ipsum Nisl dolor sit amet conse Nisl ctetur. Nisl protin cras sapien sed Lorem.</p>
-          <button class="start-btn">START NOW</button>
+        <div class="icon">
+          <img src="/public/escooter.svg" alt="Button componentt" />
+        </div>
+        <div class="title-card">eScooter & Bikes</div>
+        <h3 style="font-weight: 100; margin-bottom: 8%">
+          Lorem ipsum Nisl dolor sit amet conse Nisl ctetur. Nisl protin cras
+          sapien sed Lorem.
+        </h3>
+        <div class="button-container">
+          <img
+            src="/public/btn_plain.svg"
+            alt="Button componentt"
+            class="custom-button"
+          />
+          <span class="button-text">START NOW</span>
+        </div>
       </div>
-  </div>
-  <script src="script.js"></script>
+    </div>
+    <!-- The landscape part -->
+
+    <div class="footer-container">
+      <img
+        src="/public/footer-bg.png"
+        alt="Button componentt"
+        class="footer-img"
+      />
+      <div class="overlay-text">
+        <div class="overlay-heading">
+          REGISTER<br />
+          YOUR <span class="school">SCHOOL</span> TODAY
+        </div>
+        <div class="sub-heading">
+          Create safety ambassadors for today & tomorrow.
+        </div>
+        <div class="button-container">
+          <img
+            src="/public/btn_plain.svg"
+            alt="Button componentt"
+            class="custom-button"
+          />
+          <span class="button-text">PLAY NOW</span>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section -->
+
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="/public/logo2.png" alt="logo image" class="footer-image" />
+          <p style="gap: 12px">
+            &copy; Copyright 2024<br />Hashinclude, All rights reserved.
+          </p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-content">
+            <div class="footer-options">
+              <div class="option-group">
+                <p class="option-item">Option 1</p>
+                <p class="option-item">Option 1</p>
+              </div>
+              <div class="option-group">
+                <p class="option-item">Option 1</p>
+                <p class="option-item">Option 1</p>
+              </div>
+              <div class="option-group">
+                <p class="option-item">Option 1</p>
+                <p class="option-item">Option 1</p>
+              </div>
+            </div>
+            <div class="logo">
+              <img
+                src="/public/hexagon.svg"
+                alt="logo image"
+                class="footer-logo-image"
+              />
+            </div>
+          </div>
+          <div class="footer-social">
+            <div class="footer-soc">
+              <p><a href="#">Facebook</a></p>
+              <p><a href="#">Twitter</a></p>
+              <p><a href="#">Instagram</a></p>
+              <p><a href="#">Youtube</a></p>
+            </div>
+            <img
+              src="/public/four-squares-icon.webp"
+              alt="logo image"
+              class="logo-image-bottom"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
