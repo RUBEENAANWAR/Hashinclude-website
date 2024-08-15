@@ -286,7 +286,9 @@ body {
 
 .safety-container {
     align-self: last baseline;
-    width: 5%;
+    align-items: center;
+    width: 20%;
+    overflow: hidden;
 }
 
 .svg-cards {
@@ -418,6 +420,28 @@ p {
     font-family: 'retake', sans-serif;
     font-size: 4rem;
     color: #d9d9d9;
+    position: relative;
+    margin-left: -10%;
+    margin-right: -10%;
+    width: calc(100% + 20%);
+    overflow: hidden;
+}
+
+.overlay-heading2{
+    font-family: 'retake', sans-serif;
+    font-size: 4rem;
+    color: #d9d9d9;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.step-img {
+    width: 50%;
+    /* display: block; */
+    position: absolute;
+    /* z-index: 1; */
+    /* background-color: white; */
 }
 
 .school {
@@ -427,6 +451,14 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+.span-middle{
+   font-size: 4rem;
+    font-weight: 100;
+    background: linear-gradient(90deg, #C327BC,#333CF0 70%, #00FAFE 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
 }
 
 .sub-heading {
@@ -454,11 +486,6 @@ footer {
 .footer-right-logo img {
     /* max-width: 150px; */
     text-align: left;
-}
-
-.footer-img {
-    text-align: left;
-    margin-left: -6px
 }
 
 .footer-right {
@@ -645,8 +672,6 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    /* Adjust text color as needed */
     font-size: 16px;
-    /* Adjust font size as needed */
     line-height: 1.2;
 }
