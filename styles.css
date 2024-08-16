@@ -34,12 +34,12 @@ body {
 }
 
 .city-image {
-    background-image: linear-gradient(to left, #1A0645, rgba(26, 6, 69, 0));
+    background-image: linear-gradient(to left, #140730, rgba(26, 6, 69, 0));
     width: 50%;
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: -10%;
+    /* margin-top: -10%; */
 }
 
 .navbar {
@@ -104,7 +104,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #1A0645, rgba(26, 6, 69, 0));
+    background-image: linear-gradient(to right, #140730, rgba(26, 6, 69, 0));
 }
 
 .icon-container {
@@ -197,6 +197,7 @@ body {
     color: #D9D9D9;
     font-size: 4rem;
     font-weight: 100;
+    
 }
 
 .line-two {
@@ -542,10 +543,6 @@ footer {
     background: linear-gradient(180deg, #0085FF 0%, #F32D8D 100%);
 }
 
-.logo img {
-    width: 60px;
-}
-
 .footer-image {
     padding: 2% 0%;
 }
@@ -557,6 +554,12 @@ footer {
     padding-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* .footer-social ::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, #0085FF 0%, #F32D8D 100%);
+} */
 
 .footer-soc {
     display: flex;
@@ -589,7 +592,7 @@ footer {
 }
 
 .logo img {
-    width: 20px;
+    width: 80%;
     background: linear-gradient(45deg, #ff0077, #00f7ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -602,10 +605,6 @@ footer {
     filter: invert(100%) brightness(100%);
 }
 
-.logo {
-    display: flex;
-    gap: 4px
-}
 
 .hex-container {
     position: relative;
@@ -637,6 +636,7 @@ footer {
     height: 100%;
     z-index: 2;
 }
+
 
 .coin {
     position: absolute;
