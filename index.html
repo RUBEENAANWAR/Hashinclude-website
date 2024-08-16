@@ -16,11 +16,14 @@
     <div>
       <div class="navbar">
         <div>
-          <!-- <div style="top: 0;left: 0;">
+          <div style="position: relative;">
+            <img src="/public/logo2.png" alt="logo image" class="logo-image" />
+          </div>
+          <div style="position: absolute;width:100%;top:0;left:0;height: auto;">
             <img src="/public/vector_line.svg" alt="logo image" class="vector-img" />
-          </div> -->
-          <img src="/public/logo2.png" alt="logo image" class="logo-image" />
+          </div>
         </div>
+        
         <div class="navbar-right">
           <a href="#about ">ABOUT US</a>
           <a href="#contact">CONTACT US</a>
@@ -38,32 +41,41 @@
           </div>
         </div>
       </div>
+      <!-- <div class="image-container">
+        <img
+          src="/public/City-Picture.png"
+          alt="Bus in the city"
+          class="city-image"
+        />
+      </div> -->
+    </div>
+
+    <!-- text and button component -->
+    <div class="title-container">
+      <div>
+        <h1 class="main-title">
+          <span class="line-one">LOREM IPSUM</span><br />
+          <span class="line-two">AMET CONSETUR.</span>
+        </h1>
+        <p class="sub-title">
+          <span>ipsum dolor sit amet consectetur. Nisl proin</span> <br />
+          <span>cras sapien sed lorem amet scelerisque.</span>
+        </p>
+        <div class="button-container">
+          <img
+            src="/public/btn_plain.svg"
+            alt="Button componentt"
+            class="custom-button"
+          />
+          <span class="button-text">JOIN NOW</span>
+        </div>
+      </div>
       <div class="image-container">
         <img
           src="/public/City-Picture.png"
           alt="Bus in the city"
           class="city-image"
         />
-      </div>
-    </div>
-
-    <!-- text and button component -->
-    <div class="title-container">
-      <h1 class="main-title">
-        <span class="line-one">LOREM IPSUM</span><br />
-        <span class="line-two">AMET CONSETUR.</span>
-      </h1>
-      <p class="sub-title">
-        <span>ipsum dolor sit amet consectetur. Nisl proin</span> <br />
-        <span>cras sapien sed lorem amet scelerisque.</span>
-      </p>
-      <div class="button-container">
-        <img
-          src="/public/btn_plain.svg"
-          alt="Button componentt"
-          class="custom-button"
-        />
-        <span class="button-text">JOIN NOW</span>
       </div>
     </div>
     <!-- bottom part -->
@@ -106,9 +118,10 @@
         <div class="title-container2">
           <h1 class="main-title">
             <span class="line-one">LOR IPSUM IS</span><br />
-            <div style="display: flex;">
-            <span class="line-two">SIMPLY&nbsp;</span><span class="line-one"> DUMMY</span>
-          </div>
+            <div style="display: flex">
+              <span class="line-two">SIMPLY&nbsp;</span
+              ><span class="line-one"> DUMMY</span>
+            </div>
           </h1>
           <p class="sub-title2">
             <span>Lorem ipsum dolor sit amet consectetur. Nisl proin</span
@@ -278,7 +291,6 @@
                 alt="logo image"
                 class="footer-logo-image"
               />
-             
             </div>
           </div>
           <div class="footer-social">

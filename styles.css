@@ -34,12 +34,12 @@ body {
 }
 
 .city-image {
-    background-image: linear-gradient(to left, #140730, rgba(26, 6, 69, 0));
-    width: 50%;
+    background-image: linear-gradient(to right, rgba(26, 6, 69, 0), #140730);
+    width: 60%;
     position: absolute;
     top: 0;
     right: 0;
-    /* margin-top: -10%; */
+    margin-top: -10%;
 }
 
 .navbar {
@@ -184,7 +184,9 @@ body {
     margin-bottom: 2%;
     font-size: 3rem;
     font-family: 'Retake', sans-serif;
-
+    position: relative;
+    z-index: 10;
+    
 }
 
 .sub-title {
@@ -230,6 +232,8 @@ body {
 .stats {
     display: flex;
     margin-top: 50px;
+    z-index: 100;
+    position: relative;
 }
 
 .stat-item {
